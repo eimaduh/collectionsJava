@@ -18,6 +18,9 @@ public class ExemploSet {
         System.out.println("Crie um conjunto e adicione as notas: ");
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
         System.out.println(notas.toString());
+        /* Não é possivel acessar o indície por meio do indexOf(), nem usar os metodos set, 
+         * get, não adiciona elementos iguais 
+         */
 
 //        System.out.println("Exiba a posição da nota 5.0: ");
 
